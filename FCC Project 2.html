@@ -43,18 +43,21 @@
 
     <p>Would you recommend freeCodeCamp to a friend?</p>
 
-    <label for="definitly">
-    <input type="radio" class="input-radio" name="user-recommend" value="definitly" checked="">Definitly<br>
-    </label>
+    <div>
+    <input type="radio" name="input-radio" id="def" value="definitly" checked>
+    <label for="def">Definitly</label>
+    </div>
 
-    <label for="maybe">
-    <input type="radio" name="user-recommend" class="input-radio" value="Maybe">Maybe</br> 
-    </label>
+    <div>
+    <input type="radio" name="input-radio" id="maybe" value="maybe">
+    <label for="maybe">Maybe</label>
+    </div>
 
-    <label for="Nsure">
-    <input type="radio" name="user-recommend" class="input-radio" value="Nsure">Not sure</br>  
-    </label>
-
+    <div>
+    <input type="radio" name="input-radio" id="ns" value="not-sure">
+    <label for="ns">Not sure</label>
+    </div>
+    
     <p>What is your favorite feature of freeCodeCamp?</p>
     <select name="feature" id="dropdown" class="form-control" required="">
         <option disabled="" selected="" value="">Select an option</option>
