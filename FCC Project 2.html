@@ -13,21 +13,23 @@
 
     <header>
     <h1 id="title">Abed Survey Form</h1>
-    <h3 id="tribute-info"> Thank you for taking the time to help us improve the platform</h3>
+    <p id="description"> Thank you for taking the time to help us improve the platform</p>
     </header>
 
-    <figure id="img-div">
-        <figcaption id="img-caption">
-            <p><a id="tribute-link" href="https://www.lifewire.com/thmb/Cg_0jMzmA_1l8yLllVML8Qj-PAs=/1250x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/windows-11-teaser-765f55c7797b4c528864b16a0874fd15.jpg" target="_blank">window picture</a></p>
-            <img id="image" src="https://www.lifewire.com/thmb/Cg_0jMzmA_1l8yLllVML8Qj-PAs=/1250x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/windows-11-teaser-765f55c7797b4c528864b16a0874fd15.jpg" alt="window-cover">
-        </figcaption>
-    </figure>
-    <p>Name</p>
-    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
-    <p>Email</p>
-    <input type="email" name="" id="" placeholder="Enter your Email" required="">
-    <p>Age(Optional)</p>
-    <input name ="age" id="number" type="number" placeholder="Age" min="10" max="99" required=""></br>
+    <div id="info">
+<form id="survey-form">
+
+    <label for="name" id="name-label">Name<br>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required="">
+    </label><br>
+
+    <label for="email" id="email-label">Email<br>
+    <input type="email" name="" id="email" placeholder="Enter your Email" required="">
+    </label><br>
+
+    <label for="age" id="number-label">Age (optional)<br>
+    <input name ="age" id="number" type="number" placeholder="Age" min="10" max="99" required="">
+    </label><br>
     
     <p>Which option best describes your current role?</p>
     <select name="role" id="dropdown" class="form-control" required="">
@@ -41,11 +43,17 @@
 
     <p>Would you recommend freeCodeCamp to a friend?</p>
 
-    <input type="radio" name="user-recommend" class="input-radio" value="Definitely" checked="">Definitely</br>
+    <label for="definitly">
+    <input type="radio" class="input-radio" name="user-recommend" value="definitly" checked="">Definitly<br>
+    </label>
 
+    <label for="maybe">
     <input type="radio" name="user-recommend" class="input-radio" value="Maybe">Maybe</br> 
+    </label>
 
-    <input type="radio" name="user-recommend" class="input-radio" value="Not sure">Not sure</br>  
+    <label for="Nsure">
+    <input type="radio" name="user-recommend" class="input-radio" value="Nsure">Not sure</br>  
+    </label>
 
     <p>What is your favorite feature of freeCodeCamp?</p>
     <select name="feature" id="dropdown" class="form-control" required="">
@@ -58,22 +66,23 @@
 
     <p>What would you like to see improved?<span>(Check all that apply)</span></p>
 
-    <input type="checkbox" name="Front-end Projects" id="">Front-end Projects</br>
-    <input type="checkbox" name="Back-end Projects" id="">Back-end Projects</br>
-    <input type="checkbox" name="Data Visualization" id="">Data Visualization</br>
-    <input type="checkbox" name="Challenges" id="">Challenges</br>
-    <input type="checkbox" name="Open Source Community" id="">Open Source Community</br>
-    <input type="checkbox" name="Gitter help rooms" id="">Gitter help rooms</br>
-    <input type="checkbox" name="Videos" id="">Videos</br>
-    <input type="checkbox" name="City Meetups" id="">City Meetups</br>
-    <input type="checkbox" name="Wiki" id="">Wiki</br>
-    <input type="checkbox" name="Forum" id="">Forum</br>
-    <input type="checkbox" name="Additional Courses" id="">Additional Courses</br>
+    <input type="checkbox" name="Front-end Projects" id="" value="Front-end Projects">Front-end Projects</br>
+    <input type="checkbox" name="Back-end Projects" id="" value="Back-end Projects">Back-end Projects</br>
+    <input type="checkbox" name="Data Visualization" id="" value="Data Visualization">Data Visualization</br>
+    <input type="checkbox" name="Challenges" id="" value="Challenges">Challenges</br>
+    <input type="checkbox" name="Open Source Community" id="" value="Open Source Community">Open Source Community</br>
+    <input type="checkbox" name="Gitter help rooms" id="" value="Gitter help rooms">Gitter help rooms</br>
+    <input type="checkbox" name="Videos" id="" value="Videos">Videos</br>
+    <input type="checkbox" name="City Meetups" id="" value="City Meetups">City Meetups</br>
+    <input type="checkbox" name="Wiki" id="" value="Wiki">Wiki</br>
+    <input type="checkbox" name="Forum" id="" value="Forum">Forum</br>
+    <input type="checkbox" name="Additional Courses" id="" value="Additional Courses">Additional Courses</br>
 
     <p>Any comments or suggestions?</p>
-    <textarea name="comment" id="comments" class="input-textarea" cols="70" rows="5" placeholder="Enter your comment here..."></textarea></br>
+    <textarea name="comment" id="comments" class="input-textarea" cols="55" rows="5" placeholder="Enter your comment here..."></textarea></br>
 
     <button type="submit" id="submit" class="submit-button">Submit</button>
-
+</form>
+</div>
 </body>
 </html>

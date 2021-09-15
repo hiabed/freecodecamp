@@ -1,19 +1,40 @@
 header {
     font-family: 'Poppins', sans-serif;
     font-size: medium;
-    color: grey;
+    color: red;
+    text-align: center;
+    font-style: oblique;
+}
+
+#tribute-link {
+    text-align: center;
 }
 
 h3 {
     font-weight: 100;
     font-size: medium;
-    color: rgb(146, 146, 146);
+    color: red;
+    font-style: oblique;
 }
 
-/*body {
-    background-image: url('https://www.lifewire.com/thmb/Cg_0jMzmA_1l8yLllVML8Qj-PAs=/1250x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/windows-11-teaser-765f55c7797b4c528864b16a0874fd15.jpg');"> 
+
+body {
+    background-image: url('https://images.indianexpress.com/2021/05/Home-Desktop-Work-From-Home.jpg');"> 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }*/
+}
 
+#survey-form {
+    background-color: grey;
+    opacity: 90%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2% 5% 2% 5%;
+    border-radius: 2%;
+}
+
+#image {
+    margin-left: 25%;
+    opacity: 70%;
+}
