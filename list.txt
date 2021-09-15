@@ -1,0 +1,53 @@
+total 4455
+drwxr-xr-x 1 Abed 197609       0 Sep 15 02:02 ./
+drwxr-xr-x 1 Abed 197609       0 Aug  2 22:40 ../
+-rw-r--r-- 1 Abed 197609      76 Aug 14 01:44 .bash_history
+drwxr-xr-x 1 Abed 197609       0 Apr 26 16:05 .config/
+drwxr-xr-x 1 Abed 197609       0 Apr  5 01:21 .gem/
+-rw-r--r-- 1 Abed 197609     287 Aug 14 01:50 .gitconfig
+drwxr-xr-x 1 Abed 197609       0 Apr  5 01:13 .gnupg/
+drwxr-xr-x 1 Abed 197609       0 Jul 31 23:08 .Icecream Screen Recorder/
+-rw-r--r-- 1 Abed 197609     338 Apr  5 01:30 .irb_history
+-rw-r--r-- 1 Abed 197609      89 Apr  5 01:25 .irbrc
+-rw-r--r-- 1 Abed 197609      20 Sep 14 23:17 .lesshst
+-rw-r--r-- 1 Abed 197609      53 May 31 23:37 .node_repl_history
+drwxr-xr-x 1 Abed 197609       0 Sep 14 23:00 .ssh/
+-rw-r--r-- 1 Abed 197609    2094 Aug 14 01:56 .viminfo
+drwxr-xr-x 1 Abed 197609       0 Apr  2 00:41 .vscode/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 3D Objects/
+-rw-r--r-- 1 Abed 197609     486 Apr 22 03:35 Abed.html
+-rw-r--r-- 1 Abed 197609      19 Aug 14 01:39 abed.txt
+drwxr-xr-x 1 Abed 197609       0 Mar 29 19:03 AppData/
+lrwxrwxrwx 1 Abed 197609      29 Mar 29 19:03 Application Data -> /c/Users/Abed/AppData/Roaming/
+drwxr-xr-x 1 Abed 197609       0 Aug 14 01:49 code/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Contacts/
+lrwxrwxrwx 1 Abed 197609      57 Mar 29 19:03 Cookies -> /c/Users/Abed/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Desktop/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Documents/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Downloads/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Favorites/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Links/
+-rw-r--r-- 1 Abed 197609       0 Sep 15 02:03 list.txt
+lrwxrwxrwx 1 Abed 197609      27 Mar 29 19:03 Local Settings -> /c/Users/Abed/AppData/Local/
+drwxr-xr-x 1 Abed 197609       0 Jul 31 23:08 log/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Music/
+lrwxrwxrwx 1 Abed 197609      23 Mar 29 19:03 My Documents -> /c/Users/Abed/Documents/
+lrwxrwxrwx 1 Abed 197609      65 Mar 29 19:03 NetHood -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/Network Shortcuts/
+-rw-r--r-- 1 Abed 197609 2621440 Sep 15 01:02 NTUSER.DAT
+-rw-r--r-- 1 Abed 197609  714752 Mar 29 19:03 ntuser.dat.LOG1
+-rw-r--r-- 1 Abed 197609   40960 Mar 29 19:03 ntuser.dat.LOG2
+-rw-r--r-- 1 Abed 197609   65536 Mar 29 19:03 NTUSER.DAT{8b467f1e-90b7-11eb-9358-c4d987ea1f73}.TM.blf
+-rw-r--r-- 1 Abed 197609  524288 Mar 29 19:03 NTUSER.DAT{8b467f1e-90b7-11eb-9358-c4d987ea1f73}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Abed 197609  524288 Mar 29 19:03 NTUSER.DAT{8b467f1e-90b7-11eb-9358-c4d987ea1f73}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 Abed 197609      20 Mar 29 19:03 ntuser.ini
+-rw-r--r-- 1 Abed 197609      27 May 31 23:39 package-lock.json
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Pictures/
+lrwxrwxrwx 1 Abed 197609      65 Mar 29 19:03 PrintHood -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/Printer Shortcuts/
+lrwxrwxrwx 1 Abed 197609      54 Mar 29 19:03 Recent -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Saved Games/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Searches/
+lrwxrwxrwx 1 Abed 197609      54 Mar 29 19:03 SendTo -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 Abed 197609      58 Mar 29 19:03 Start Menu -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/Start Menu/
+-rw-r--r-- 1 Abed 197609     140 Apr 22 03:42 style.css
+lrwxrwxrwx 1 Abed 197609      57 Mar 29 19:03 Templates -> /c/Users/Abed/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 Abed 197609       0 Sep 15 01:07 Videos/
