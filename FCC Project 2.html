@@ -48,17 +48,17 @@
     <p>Would you recommend freeCodeCamp to a friend?</p>
 
     <div>
-    <input type="radio" name="input-radio" id="def" value="definitly" checked>
+    <input type="radio" name="input-radio" id="def" class="input-radio" value="definitly" checked>
     <label for="def">Definitly</label>
     </div>
 
     <div>
-    <input type="radio" name="input-radio" id="maybe" value="maybe">
+    <input type="radio" name="input-radio" id="maybe" class="input-radio" value="maybe">
     <label for="maybe">Maybe</label>
     </div>
 
     <div>
-    <input type="radio" name="input-radio" id="ns" value="not-sure">
+    <input type="radio" name="input-radio" id="ns" class="input-radio" value="not-sure">
     <label for="ns">Not sure</label>
     </div>
     
@@ -73,20 +73,43 @@
 
     <p>What would you like to see improved?<span>(Check all that apply)</span></p>
 
-    <input type="checkbox" name="Front-end Projects" id="" value="Front-end Projects">Front-end Projects</br>
-    <input type="checkbox" name="Back-end Projects" id="" value="Back-end Projects">Back-end Projects</br>
-    <input type="checkbox" name="Data Visualization" id="" value="Data Visualization">Data Visualization</br>
-    <input type="checkbox" name="Challenges" id="" value="Challenges">Challenges</br>
-    <input type="checkbox" name="Open Source Community" id="" value="Open Source Community">Open Source Community</br>
-    <input type="checkbox" name="Gitter help rooms" id="" value="Gitter help rooms">Gitter help rooms</br>
-    <input type="checkbox" name="Videos" id="" value="Videos">Videos</br>
-    <input type="checkbox" name="City Meetups" id="" value="City Meetups">City Meetups</br>
-    <input type="checkbox" name="Wiki" id="" value="Wiki">Wiki</br>
-    <input type="checkbox" name="Forum" id="" value="Forum">Forum</br>
-    <input type="checkbox" name="Additional Courses" id="" value="Additional Courses">Additional Courses</br>
+    <div id="checkbox-div">
+    <input type="checkbox" name="input-checkbox" id="checkbox1" class="input-checkbox" value="front-end-projects">
+    <label for="checkbox1">Front-end Projects</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox2" class="input-checkbox" value="back-end-projects">
+    <label for="checkbox2">Back-end Projects</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox3" class="input-checkbox" value="data-visualization">
+    <label for="checkbox3">Data Visualization</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox4" class="input-checkbox" value="challenges">
+    <label for="checkbox4">Challenges</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox5" class="input-checkbox" value="open-source-community">
+    <label for="checkbox5">Open Source Community</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox6" class="input-checkbox" value="gitter-help-rooms">
+    <label for="checkbox6">Gitter help rooms</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox7" class="input-checkbox" value="videos">
+    <label for="checkbox7">Videos</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox8" class="input-checkbox" value="city-meetups">
+    <label for="checkbox8">City Meetups</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox9" class="input-checkbox" value="wiki">
+    <label for="checkbox9">Wiki</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox10" class="input-checkbox" value="forum">
+    <label for="checkbox10">Forum</label></br>
+
+    <input type="checkbox" name="input-checkbox" id="checkbox11" class="input-checkbox" value="additional-courses">
+    <label for="checkbox11">Additional Courses</label></br>
+    </div>
 
     <p>Any comments or suggestions?</p>
-    <textarea name="comment" id="comments" class="input-textarea" cols="54" rows="5" placeholder="Enter your comment here..."></textarea></br>
+    <textarea name="comment" id="comments" class="input-textarea" cols="55" rows="5" placeholder="Enter your comment here..."></textarea></br>
 
     <button type="submit" id="submit" class="submit-button">Submit</button>
 </form>

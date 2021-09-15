@@ -1,10 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    font-size: large;
+    background-image: url('https://images.indianexpress.com/2021/05/Home-Desktop-Work-From-Home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #name {
-    padding: 1.5% 2% 1.5% 0%;
+    padding: 2% 2% 2% 2%;
     border-radius: 4px;
     margin-top: 2%;
     border: 1px solid rgb(199, 159, 159);
@@ -12,7 +16,7 @@ body {
 }
 
 #email {
-    padding: 1.5% 2% 1.5% 0%;
+    padding: 2% 2% 2% 2%;
     border-radius: 4px;
     margin-top: 2%;
     border: 1px solid rgb(199, 159, 159);
@@ -20,7 +24,7 @@ body {
 }
 
 #number {
-    padding: 1.5% 2% 1.5% 0%;
+    padding: 2% 2% 2% 2%;
     border-radius: 4px;
     margin-top: 2%;
     border: 1px solid rgb(199, 159, 159);
@@ -40,17 +44,15 @@ body {
 }
 
 .form-control-1 {
-    padding: 1.5% 4% 1.5% 0%;
+    padding: 2% 2% 2% 2%;
     border-radius: 4px;
-    margin-top: 2%;
     border: 1px solid rgb(199, 159, 159);
     width: 100%;
 }
 
 .form-control-2 {
-    padding: 1.5% 4% 1.5% 0%;
+    padding: 2% 2% 2% 2%;
     border-radius: 4px;
-    margin-top: 2%;
     border: 1px solid rgb(199, 159, 159);
     width: 100%;
 }
@@ -65,9 +67,6 @@ header {
     text-align: center;
 }
 
-#tribute-link {
-    text-align: center;
-}
 
 h3 {
     font-weight: 100;
@@ -75,12 +74,16 @@ h3 {
     color: red;
 }
 
+.input-checkbox {
+    line-height: 1.6;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
 
-body {
-    background-image: url('https://images.indianexpress.com/2021/05/Home-Desktop-Work-From-Home.jpg'); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+#checkbox-div {
+    line-height: 1.6;
 }
 
 #survey-form {
@@ -90,6 +93,13 @@ body {
     margin-right: 30%;
     padding: 2% 5% 2% 5%;
     border-radius: 2%;
+}
+
+.input-radio {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
 }
 
 #image {
