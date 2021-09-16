@@ -62,16 +62,21 @@ span {
     font-size: 14px;
 }
 header {
-    font-size: medium;
-    color: red;
+    font-size: large;
+    color: rgb(243, 93, 93);
     text-align: center;
+    background-color: teal;
+    opacity: 90%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 10%;
 }
 
 
-h3 {
+#description {
     font-weight: 100;
-    font-size: medium;
-    color: red;
+    font-size: large;
+    color: rgb(247, 29, 29);
 }
 
 .input-checkbox {
@@ -93,6 +98,7 @@ h3 {
     margin-right: 30%;
     padding: 2% 5% 2% 5%;
     border-radius: 2%;
+    margin-top: 2%;
 }
 
 .input-radio {
